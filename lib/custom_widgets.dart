@@ -149,15 +149,15 @@ class ListViewCustom extends StatelessWidget {
                   padding: const EdgeInsets.fromLTRB(0, 8, 0, 0),
                   child: Card(child: ClipRRect(
                     borderRadius: BorderRadius.circular(5),
-                    child: Image.network('$imagelink',width:50,height: 50,fit: BoxFit.fill,),),),
+                    child: Image.network('$imagelink',width:50,height: 48,fit: BoxFit.fill,),),),
                 ),
                 SizedBox(width: 10,),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    SizedBox(height: 12,),
+                    SizedBox(height: 14,),
                     Text("Order #$orderid",style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),
-                    SizedBox(height: 3,),
+                    SizedBox(height: 4,),
                     Text(time,style: TextStyle(color: Colors.grey[600]),)
                   ],
                 ),
